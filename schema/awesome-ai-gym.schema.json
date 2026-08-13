@@ -1,0 +1,73 @@
+{
+  "$id": "https://github.com/seanchatmangpt/awesome-ai-gyms/schema/awesome-ai-gym.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "canonical_url": {
+      "pattern": "^https://",
+      "type": "string"
+    },
+    "category": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "gym_ref": {
+      "pattern": "^awesome-ai-gym:",
+      "type": "string"
+    },
+    "kind": {
+      "enum": [
+        "environment",
+        "benchmark",
+        "simulator",
+        "framework",
+        "infrastructure"
+      ]
+    },
+    "modes": {
+      "items": {
+        "enum": [
+          "train",
+          "eval"
+        ]
+      },
+      "type": "array",
+      "uniqueItems": true
+    },
+    "name": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "provenance": {
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "standing": {
+      "const": "UNKNOWN"
+    },
+    "tags": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array",
+      "uniqueItems": true
+    }
+  },
+  "required": [
+    "gym_ref",
+    "name",
+    "canonical_url",
+    "category",
+    "kind",
+    "modes",
+    "tags",
+    "provenance",
+    "standing"
+  ],
+  "title": "Normalized Awesome AI Gym Candidate",
+  "type": "object"
+}
