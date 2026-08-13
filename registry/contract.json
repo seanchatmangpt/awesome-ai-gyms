@@ -23,6 +23,7 @@
     },
     "standing": "UNKNOWN"
   },
+  "identity_field": "canonical_url",
   "schema_version": "1.0.0",
   "standing": "PARTIAL_ALIVE",
   "standing_reason": "registry parsing/validation and deterministic README projection are locally executable; candidate gyms remain UNKNOWN until independently executed through their lawful runtime"

@@ -1,4 +1,5 @@
 {
+  "$comment": "gym_ref is the canonical public URI and MUST equal canonical_url; products copy identity rather than manufacturing a new opaque identifier.",
   "$id": "https://github.com/seanchatmangpt/awesome-ai-gyms/schema/awesome-ai-gym.schema.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "additionalProperties": false,
@@ -12,7 +13,7 @@
       "type": "string"
     },
     "gym_ref": {
-      "pattern": "^awesome-ai-gym:",
+      "pattern": "^https://",
       "type": "string"
     },
     "kind": {
