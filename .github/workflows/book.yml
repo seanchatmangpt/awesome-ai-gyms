@@ -1,0 +1,30 @@
+name: book
+
+on:
+  pull_request:
+    paths:
+      - "book/**"
+      - "scripts/validate_book.py"
+      - ".github/workflows/book.yml"
+  push:
+    branches: [main]
+    paths:
+      - "book/**"
+      - "scripts/validate_book.py"
+      - ".github/workflows/book.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - name: Validate pattern language
+        run: python scripts/validate_book.py
+      - name: Install mdBook
+        run: cargo install mdbook --locked --version 0.5.3
+      - name: Build mdBook
+        run: mdbook build book
