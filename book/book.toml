@@ -3,7 +3,6 @@ title = "A Pattern Language for AI Gyms"
 authors = ["Awesome AI Gyms contributors"]
 description = "A pattern language for executable AI worlds, lawful actuation, evidence, replay, and ontology-driven manufacture."
 language = "en"
-multilingual = false
 src = "src"
 
 [build]
