@@ -28,3 +28,9 @@ jobs:
         run: cargo install mdbook --locked --version 0.5.3
       - name: Build mdBook
         run: mdbook build book
+      - name: Upload compiled mdBook
+        uses: actions/upload-artifact@v4
+        with:
+          name: ai-gym-pattern-language-html
+          path: book/book
+          if-no-files-found: error
