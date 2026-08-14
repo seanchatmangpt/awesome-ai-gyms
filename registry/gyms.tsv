@@ -1,0 +1,191 @@
+name	canonical_url	category	kind	modes	tags	provenance
+AirSim	https://github.com/Microsoft/AirSim	autonomous-driving	simulator	train,eval	autonomous-driving	aae
+CARLA	https://github.com/carla-simulator/carla	autonomous-driving	simulator	train,eval	driving	arle
+HighwayEnv	https://github.com/Farama-Foundation/HighwayEnv	autonomous-driving	simulator	train,eval	driving	arle
+MetaDrive	https://github.com/metadriverse/metadrive	autonomous-driving	simulator	train,eval	driving	arle
+Commit0	https://github.com/commit-0/commit0	coding	benchmark	eval	from-spec,software-engineering	aab
+debug-gym	https://github.com/microsoft/debug-gym	coding	environment	train,eval	debugging,tools	arle
+LoCoBench-Agent	https://github.com/SalesforceAIResearch/LoCoBench-Agent	coding	benchmark	eval	long-context,software-engineering	aab
+MLE-bench	https://github.com/openai/mle-bench	coding	benchmark	eval	ml-engineering	aab,arle
+Multi-SWE-Bench	https://github.com/multi-swe-bench/multi-swe-bench	coding	benchmark	eval	software-engineering	aarle
+ProjDevBench	https://github.com/zsworld6/projdevbench	coding	benchmark	eval	project-development,software-engineering	aab
+R2E-Gym	https://github.com/R2E-Gym/R2E-Gym	coding	environment	train,eval	software-engineering	aarle
+SciCode	https://github.com/scicode-bench/SciCode	coding	benchmark	eval	scientific-coding	aab
+SWE-bench	https://github.com/SWE-bench/SWE-bench	coding	benchmark	eval	software-engineering	aab,aarle,arle
+SWE-bench Pro	https://github.com/scaleapi/SWE-bench_Pro-os	coding	benchmark	eval	software-engineering	aarle
+SWE-bench-Live	https://github.com/microsoft/SWE-bench-Live	coding	benchmark	eval	software-engineering	aarle
+SWE-Gym	https://github.com/SWE-Gym/SWE-Gym	coding	environment	train,eval	software-engineering	aarle,arle
+USACO	https://github.com/princeton-nlp/USACO	coding	benchmark	eval	competitive-programming	aab
+Agent-S	https://github.com/simular-ai/Agent-S	computer-use	framework	train,eval	computer-use	aarle
+AndroidEnv	https://github.com/google-deepmind/android_env	computer-use	environment	train,eval	computer-use	arle
+AndroidWorld	https://github.com/google-research/android_world	computer-use	environment	eval	computer-use	aab,aarle,arle
+CRAB	https://github.com/camel-ai/crab	computer-use	benchmark	eval	computer-use,multimodal	aab
+OSUniverse	https://github.com/agentsea/osuniverse	computer-use	benchmark	eval	computer-use,multimodal	aab
+OSWorld	https://github.com/xlang-ai/OSWorld	computer-use	environment	eval	computer-use	aab,aarle,arle
+OSWorld-MCP	https://github.com/X-PLUG/OSWorld-MCP	computer-use	benchmark	eval	computer-use,mcp	aab
+SCUBA	https://github.com/SalesforceAIResearch/SCUBA	computer-use	benchmark	eval	crm,enterprise	aab
+Spider2-V	https://github.com/xlang-ai/Spider2-V	computer-use	benchmark	eval	data-engineering,enterprise	aab
+Terminal-Bench	https://github.com/laude-institute/terminal-bench	computer-use	benchmark	eval	computer-use	arle
+Terminal-Bench 2.0	https://github.com/harbor-framework/terminal-bench-2	computer-use	benchmark	eval	long-horizon,terminal	aab
+UI-CUBE	https://github.com/UiPath/uipath_enterprise_benchmark	computer-use	benchmark	eval	computer-use,enterprise	aab
+Windows Agent Arena	https://github.com/microsoft/WindowsAgentArena	computer-use	environment	eval	computer-use	aarle
+CityLearn	https://github.com/intelligent-environments-lab/CityLearn	domain-specific	environment	train,eval	energy	arle
+FinRL	https://github.com/AI4Finance-Foundation/FinRL	domain-specific	environment	train,eval	finance	arle
+Flatland	https://github.com/flatland-association/flatland-rl	domain-specific	environment	train,eval	rail	arle
+Gym-ANM	https://github.com/robinhenry/gym-anm	domain-specific	environment	train,eval	energy	arle
+BEHAVIOR-1K	https://github.com/StanfordVL/BEHAVIOR-1K	embodied	benchmark	eval	embodied	aab
+MineAnyBuild	https://github.com/MineAnyBuild/MineAnyBuild	embodied	benchmark	eval	embodied	aab
+Robotouille	https://github.com/portal-cornell/robotouille	embodied	benchmark	eval	embodied	aab
+CRMArena	https://github.com/SalesforceAIResearch/CRMArena	enterprise	benchmark	eval	crm,enterprise	aab
+Arcade Learning Environment	https://github.com/Farama-Foundation/Arcade-Learning-Environment	games	environment	train,eval	games	arle
+BALROG	https://github.com/balrog-ai/BALROG	games	benchmark	eval	llm,long-horizon,vlm	arle
+Bomberland	https://github.com/coderonehq/bomberland	games	environment	train,eval	games	are
+CoinRun	https://github.com/openai/coinrun	games	environment	train,eval	games	are
+Craftax	https://github.com/MichaelTMatthews/Craftax	games	environment	train,eval	games	arle
+Crafter	https://github.com/danijar/crafter	games	environment	train,eval	games	arle
+Google Research Football	https://github.com/google-research/football	games	environment	train,eval	games	arle,are
+Griddly	https://github.com/Bam4d/Griddly	games	framework	train,eval	grid-world	arle
+Gym Retro	https://github.com/openai/retro	games	environment	train,eval	games	are
+MineDojo	https://github.com/MineDojo/MineDojo	games	environment	train,eval	games	arle
+MineRL	https://github.com/minerllabs/minerl	games	environment	train,eval	games	arle
+MiniHack	https://github.com/facebookresearch/minihack	games	environment	train,eval	games	arle
+NetHack Learning Environment	https://github.com/heiner/nle	games	environment	train,eval	games	arle
+Procgen Benchmark	https://github.com/openai/procgen	games	environment	train,eval	games	arle
+Pycolab	https://github.com/deepmind/pycolab	games	framework	train,eval	games	aae
+PySC2	https://github.com/google-deepmind/pysc2	games	environment	train,eval	games	arle,are
+Stable-Retro	https://github.com/Farama-Foundation/stable-retro	games	framework	train,eval	retro-games	arle
+Voyager	https://github.com/MineDojo/Voyager	games	framework	train,eval	games	arle
+AgencyBench	https://github.com/GAIR-NLP/AgencyBench	general-agent	benchmark	eval	long-horizon,tools	aab
+AgentBench	https://github.com/THUDM/AgentBench	general-agent	benchmark	eval	llm,multi-environment	arle
+AgentGym	https://github.com/WooooDyy/AgentGym	general-agent	framework	train,eval	llm,multi-environment	aarle,arle
+AgentGym-RL	https://github.com/WooooDyy/AgentGym-RL	general-agent	framework	train,eval	llm,multi-environment,rl	aarle
+GEM	https://github.com/axon-rl/gem	general-agent	framework	train,eval	llm,multi-task,rl	aarle
+HCAST	https://github.com/METR/hcast-public	general-agent	benchmark	eval	human-baseline,multi-domain	aab
+Meta Agents Research Environments	https://github.com/facebookresearch/meta-agents-research-environments	general-agent	benchmark	eval	dynamic-environments,llm,multi-agent,tools	aab,arle
+OpenAI Universe	https://github.com/openai/universe	general-agent	framework	train,eval	general-agent	aae
+OpenPipe ART	https://github.com/OpenPipe/ART	general-agent	framework	train,eval	grpo,llm	aarle
+prime-rl	https://github.com/PrimeIntellect-ai/prime-rl	general-agent	framework	train,eval	llm,rl	aarle
+RAGEN	https://github.com/RAGEN-AI/RAGEN	general-agent	framework	train,eval	llm,multi-turn,reasoning	aarle
+SkyRL	https://github.com/NovaSky-AI/SkyRL	general-agent	framework	train,eval	llm,long-horizon,rl	aarle
+UltraHorizon	https://github.com/StarDewXXX/UltraHorizon	general-agent	benchmark	eval	long-horizon,partial-observability	aab
+VAGEN	https://github.com/RAGEN-AI/VAGEN	general-agent	framework	train,eval	multi-turn,vlm,world-model	aarle
+verifiers	https://github.com/PrimeIntellect-ai/verifiers	general-agent	framework	train,eval	llm,rl,verifier	aarle
+verl-agent	https://github.com/langfengQ/verl-agent	general-agent	framework	train,eval	llm,rl,vlm	aarle
+Brax	https://github.com/google/brax	high-throughput	framework	train,eval	accelerated,jax	arle
+Gymnax	https://github.com/RobertTLange/gymnax	high-throughput	framework	train,eval	accelerated,jax	arle
+JaxMARL	https://github.com/FLAIROx/JaxMARL	high-throughput	framework	train,eval	accelerated,jax	arle
+Jumanji	https://github.com/instadeep/jumanji	high-throughput	framework	train,eval	accelerated,jax	arle
+Acme	https://github.com/google-deepmind/acme	infrastructure	infrastructure	train,eval	rl-tooling	agd
+CleanRL	https://github.com/vwxyzjn/cleanrl	infrastructure	infrastructure	train,eval	rl-tooling	agd
+EnvPool	https://github.com/sail-sg/envpool	infrastructure	infrastructure	train,eval	high-throughput	arle
+Minari	https://github.com/Farama-Foundation/Minari	infrastructure	infrastructure	train,eval	datasets,offline-rl	arle
+OpenRLHF	https://github.com/OpenRLHF/OpenRLHF	infrastructure	infrastructure	train,eval	rl-tooling	agd
+Rliable	https://github.com/google-research/rliable	infrastructure	infrastructure	train,eval	rl-tooling	agd
+RLlib	https://github.com/ray-project/ray/tree/master/rllib	infrastructure	infrastructure	train,eval	rl-tooling	agd
+Sample Factory	https://github.com/alex-petrenko/sample-factory	infrastructure	infrastructure	train,eval	rl-tooling	agd
+SB3 Zoo	https://github.com/DLR-RM/rl-baselines3-zoo	infrastructure	infrastructure	train,eval	rl-tooling	agd
+Stable Baselines3	https://github.com/DLR-RM/stable-baselines3	infrastructure	infrastructure	train,eval	rl-tooling	agd
+Tianshou	https://github.com/thu-ml/tianshou	infrastructure	infrastructure	train,eval	rl-tooling	agd
+LoCoMo	https://github.com/snap-research/locomo	memory	benchmark	eval	long-term-memory	aab
+LoCoMo-Plus	https://github.com/xjtuleeyf/Locomo-Plus	memory	benchmark	eval	long-term-memory	aab
+LongMemEval	https://github.com/xiaowu0162/LongMemEval	memory	benchmark	eval	long-term-memory	aab
+Melting Pot	https://github.com/google-deepmind/meltingpot	multi-agent	environment	train,eval	multi-agent	arle
+Neural MMO	https://github.com/NeuralMMO/environment	multi-agent	environment	train,eval	multi-agent	arle
+Overcooked-AI	https://github.com/HumanCompatibleAI/overcooked_ai	multi-agent	environment	train,eval	multi-agent	arle
+PommerMan	https://github.com/MultiAgentLearning/playground	multi-agent	environment	train,eval	multi-agent	aae
+SMACv2	https://github.com/oxwhirl/smacv2	multi-agent	environment	train,eval	multi-agent	arle
+VMAS	https://github.com/proroklab/VectorizedMultiAgentSimulator	multi-agent	environment	train,eval	multi-agent	arle
+AI2-THOR	https://github.com/allenai/ai2thor	navigation	simulator	train,eval	navigation	aae
+DeepMind Lab	https://github.com/deepmind/lab	navigation	environment	train,eval	navigation	aae
+GibsonEnv	https://github.com/StanfordVL/GibsonEnv	navigation	simulator	train,eval	navigation	aae
+Gym-Maze	https://github.com/zuoxingdong/gym-maze	navigation	environment	train,eval	navigation	aae
+HoME Platform	https://github.com/HoME-Platform/home-platform	navigation	simulator	train,eval	navigation	aae
+House3D	https://github.com/facebookresearch/House3D	navigation	simulator	train,eval	navigation	aae
+MINOS	https://github.com/minosworld/minos	navigation	simulator	train,eval	navigation	aae
+Project Malmo	https://github.com/Microsoft/malmo	navigation	environment	train,eval	navigation	aae
+VizDoom	https://github.com/mwydmuch/ViZDoom	navigation	environment	train,eval	navigation	aae
+REALM-Bench	https://github.com/genglongling/REALM-Bench	planning	benchmark	eval	multi-agent,planning,scheduling	aab
+MiniGrid	https://github.com/Farama-Foundation/Minigrid	reasoning-games	environment	train,eval	grid-world	arle
+ALFWorld	https://github.com/alfworld/alfworld	reasoning-text	environment	train,eval	language-agent	aab,arle
+Reasoning Gym	https://github.com/open-thought/reasoning-gym	reasoning-text	environment	train,eval	language-agent	arle
+ScienceWorld	https://github.com/allenai/ScienceWorld	reasoning-text	environment	train,eval	language-agent	arle
+TextArena	https://github.com/LeonGuertler/TextArena	reasoning-text	environment	train,eval	language-agent	arle
+TextWorld	https://github.com/microsoft/TextWorld	reasoning-text	framework	train,eval	language-agent	arle
+AstaBench	https://github.com/allenai/asta-bench	research	benchmark	eval	scientific-research	aab
+BrowseComp-Plus	https://github.com/texttron/BrowseComp-Plus	research	benchmark	eval	deep-research	aab
+DeepResearch Bench	https://github.com/Ayanami0730/deep_research_bench	research	benchmark	eval	deep-research	aab
+DeepScholar-Bench	https://github.com/guestrin-lab/deepscholar-bench	research	benchmark	eval	deep-research	aab
+InnovatorBench	https://github.com/GAIR-NLP/InnovatorBench	research	benchmark	eval	scientific-research	aab
+MMDeepResearch-Bench	https://github.com/AIoT-MLSys-Lab/MMDeepResearch-Bench	research	benchmark	eval	deep-research	aab
+PaperArena	https://github.com/Melmaphother/PaperArena	research	benchmark	eval	deep-research	aab
+RE-Bench	https://github.com/METR/RE-Bench	research	benchmark	eval	research-engineering	aab
+WideSearch	https://github.com/ByteDance-Seed/WideSearch	research	benchmark	eval	deep-research	aab
+Assistive-gym	https://github.com/Healthcare-Robotics/assistive-gym	robotics	environment	train,eval	robotics	are
+CALVIN	https://github.com/mees/calvin	robotics	simulator	train,eval	robotics	are
+Dexterous Gym	https://github.com/henrycharlesworth/dexterous-gym	robotics	environment	train,eval	robotics	are
+DoorGym	https://github.com/PSVL/DoorGym	robotics	environment	train,eval	robotics	are
+Gym Gazebo 2	https://github.com/AcutronicRobotics/gym-gazebo2	robotics	environment	train,eval	robotics	are
+Gym Ignition	https://github.com/robotology/gym-ignition	robotics	environment	train,eval	robotics	are
+Gymnasium-Robotics	https://github.com/Farama-Foundation/Gymnasium-Robotics	robotics	environment	train,eval	robotics	arle
+Habitat Lab	https://github.com/facebookresearch/habitat-lab	robotics	simulator	train,eval	robotics	arle
+Isaac Lab	https://github.com/isaac-sim/IsaacLab	robotics	simulator	train,eval	robotics	arle
+ManiSkill	https://github.com/haosulab/ManiSkill	robotics	simulator	train,eval	robotics	arle
+Meta-World	https://github.com/Farama-Foundation/Metaworld	robotics	environment	train,eval	robotics	arle
+MuJoCo	https://github.com/google-deepmind/mujoco	robotics	simulator	train,eval	robotics	arle
+RAISIM	https://github.com/leggedrobotics/raisimLib	robotics	simulator	train,eval	robotics	are
+Rex-Gym	https://github.com/nicrusso7/rex-gym	robotics	environment	train,eval	robotics	are
+Roboschool	https://github.com/openai/roboschool	robotics	environment	train,eval	robotics	aae
+robosuite	https://github.com/ARISE-Initiative/robosuite	robotics	environment	train,eval	robotics	arle
+DeepMind Control Suite	https://github.com/google-deepmind/dm_control	robotics-control	framework	train,eval	control,mujoco	arle
+Agent-SafetyBench	https://github.com/thu-coai/Agent-SafetyBench	safety	benchmark	eval	agent-safety	aab
+AgentAuditor	https://github.com/Astarojth/AgentAuditor	safety	benchmark	eval	agent-safety,evaluation	aab
+MCP-SafetyBench	https://github.com/xjzzzzzzzz/MCPSafety	safety	benchmark	eval	agent-safety,mcp	aab
+MT-AgentRisk / ToolShield	https://github.com/CHATS-lab/ToolShield	safety	benchmark	eval	multi-turn,tool-use	aab
+OpenAgentSafety	https://github.com/sani903/OpenAgentSafety	safety	benchmark	eval	agent-safety,tools	aab
+OS-Harm	https://github.com/tml-epfl/os-harm	safety	benchmark	eval	agent-safety,computer-use	aab
+Agent Security Bench	https://github.com/agiresearch/ASB	security	benchmark	eval	agent-security	aab
+CAIBench	https://github.com/aliasrobotics/cai/tree/main/benchmarks	security	benchmark	eval	cybersecurity	aab
+CVE-Bench	https://github.com/uiuc-kang-lab/cve-bench	security	benchmark	eval	vulnerability,web-app	aab
+CyberGym	https://github.com/sunblaze-ucb/cybergym	security	benchmark	eval	vulnerability-analysis	aab
+DoomArena	https://github.com/ServiceNow/DoomArena	security	benchmark	eval	agent-security,web-agent	aab
+ExCyTIn-Bench / SecRL	https://github.com/microsoft/SecRL	security	benchmark	eval	cybersecurity,investigation	aab
+SEC-bench	https://github.com/SEC-bench/SEC-bench	security	benchmark	eval	security-engineering	aab
+WASP	https://github.com/facebookresearch/wasp	security	benchmark	eval	prompt-injection,web-agent	aab
+Unity ML-Agents	https://github.com/Unity-Technologies/ml-agents	simulation	framework	train,eval	custom-environments,unity	arle
+Gymnasium	https://github.com/Farama-Foundation/Gymnasium	standards	framework	train,eval	gym-api,single-agent	arle
+OpenAI Gym	https://github.com/openai/gym	standards	framework	train,eval	standards	aae
+OpenEnv	https://github.com/meta-pytorch/OpenEnv	standards	framework	train,eval	agent-environment-standard	arle
+PettingZoo	https://github.com/Farama-Foundation/PettingZoo	standards	framework	train,eval	api,multi-agent	arle
+Shimmy	https://github.com/Farama-Foundation/Shimmy	standards	infrastructure	train,eval	compatibility	arle
+OpenSpiel	https://github.com/google-deepmind/open_spiel	strategy-games	framework	train,eval	multi-agent	arle
+Pgx	https://github.com/sotetsuk/pgx	strategy-games	environment	train,eval	multi-agent	arle
+RLCard	https://github.com/datamllab/rlcard	strategy-games	environment	train,eval	multi-agent	arle
+TorchCraft	https://github.com/TorchCraft/TorchCraft	strategy-games	environment	train,eval	strategy-games	aae
+API-Bank	https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/api-bank	tool-use	benchmark	eval	api,planning	aab
+AppWorld	https://github.com/StonyBrookNLP/appworld	tool-use	environment	train,eval	api,tools	aab,aarle,arle
+Gorilla / APIBench	https://github.com/ShishirPatil/gorilla	tool-use	benchmark	eval	api,function-calling	arle
+GTA	https://github.com/open-compass/GTA	tool-use	benchmark	eval	multimodal,tools	aab
+MCP-Bench	https://github.com/Accenture/mcp-bench	tool-use	benchmark	eval	mcp,tools	aab
+MCP-Universe	https://github.com/SalesforceAIResearch/MCP-Universe	tool-use	benchmark	eval	mcp,tools	aab
+tau-bench	https://github.com/sierra-research/tau-bench	tool-use	benchmark	eval	api,tools	aarle,arle
+tau2-bench	https://github.com/sierra-research/tau2-bench	tool-use	benchmark	eval	api,tools	aarle,arle
+Tool Decathlon	https://github.com/hkust-nlp/Toolathlon	tool-use	benchmark	eval	multi-app,tools	aab
+ToolBench	https://github.com/OpenBMB/ToolBench	tool-use	benchmark	train,eval	api,tools	aarle,arle
+ToolComp	https://github.com/vaskar-nath/toolcomp	tool-use	benchmark	eval	reasoning,tools	aab
+ToolSandbox	https://github.com/apple/ToolSandbox	tool-use	environment	eval	api,tools	aarle
+AgentLab	https://github.com/ServiceNow/AgentLab	web	framework	train,eval	benchmarking,web-agent	aarle
+AssistantBench	https://github.com/oriyor/assistantbench	web	benchmark	eval	web-agent	aarle
+BrowseComp	https://github.com/openai/simple-evals	web	benchmark	eval	eval,web-research	aab
+BrowserArena	https://github.com/sagnikanupam/browserarena	web	benchmark	eval	arena,web-agent	aab
+BrowserGym	https://github.com/ServiceNow/BrowserGym	web	environment	train,eval	web-agent	aarle,arle
+Mind2Web	https://github.com/OSU-NLP-Group/Mind2Web	web	benchmark	eval	web-agent	aarle,arle
+Mind2Web 2	https://github.com/OSU-NLP-Group/Mind2Web-2	web	benchmark	eval	research,web-agent	aab
+Online-Mind2Web	https://github.com/OSU-NLP-Group/Online-Mind2Web	web	benchmark	eval	live,web-agent	aab
+VisualWebArena	https://github.com/web-arena-x/visualwebarena	web	environment	eval	web-agent	aarle,arle
+WebArena	https://github.com/web-arena-x/webarena	web	environment	eval	web-agent	aarle,arle
+WebArena-Infinity	https://github.com/web-arena-x/webarena-infinity	web	benchmark	eval	generated-environments,web-agent	aab
+WebArena-Verified	https://github.com/ServiceNow/webarena-verified	web	benchmark	eval	web-agent	aarle
+WebChoreArena	https://github.com/WebChoreArena/WebChoreArena	web	benchmark	eval	long-horizon,web-agent	aab
+WebRL	https://github.com/THUDM/WebRL	web	environment	train,eval	web-agent	aarle
+WebShop	https://github.com/princeton-nlp/WebShop	web	environment	train,eval	shopping,web-agent	arle
+WorkArena	https://github.com/ServiceNow/WorkArena	web	environment	eval	web-agent	aab,aarle,arle

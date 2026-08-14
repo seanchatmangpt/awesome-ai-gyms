@@ -1,0 +1,30 @@
+{
+  "catalog_version": "26.8.12",
+  "entry_count": 190,
+  "entry_defaults": {
+    "autofde_lab": {
+      "authority": "SELECT_ONLY",
+      "planner_compatibility": "UNKNOWN",
+      "stage": "discoverable"
+    },
+    "dfcm": {
+      "actuation": "FORBIDDEN_FROM_CATALOG",
+      "admission": "CANDIDATE_ONLY",
+      "authority": "NONE"
+    },
+    "evidence": {
+      "executed": false,
+      "receipt_ref": null
+    },
+    "gymact": {
+      "provider": null,
+      "requires_provider_adapter": true,
+      "stage": "candidate"
+    },
+    "standing": "UNKNOWN"
+  },
+  "identity_field": "canonical_url",
+  "schema_version": "1.0.0",
+  "standing": "PARTIAL_ALIVE",
+  "standing_reason": "registry parsing/validation and deterministic README projection are locally executable; candidate gyms remain UNKNOWN until independently executed through their lawful runtime"
+}

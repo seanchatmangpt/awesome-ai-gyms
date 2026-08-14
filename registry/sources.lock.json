@@ -1,0 +1,72 @@
+{
+  "observed_at": "2026-08-12",
+  "schema_version": "1.0.0",
+  "sources": [
+    {
+      "code": "aarle",
+      "commit_sha": "4182d60291a05fe37a41b55e158ca8cc00845288",
+      "id": "awesome-agent-rl-environments",
+      "license_note": "Follow the upstream repository license/terms; this registry stores normalized factual metadata and links, not upstream prose.",
+      "name": "Awesome Agent RL Environments",
+      "observed_at": "2026-08-12",
+      "ref": "main",
+      "role": "modern-agent-environments",
+      "url": "https://github.com/V01dMur10c/awesome-agent-rl-environments"
+    },
+    {
+      "code": "arle",
+      "commit_sha": "9cddaf098cfba1bf66c0c2a78d7c182856d806eb",
+      "id": "awesome-rl-environments",
+      "license_note": "Follow the upstream repository license/terms; this registry stores normalized factual metadata and links, not upstream prose.",
+      "name": "Awesome RL Environments",
+      "observed_at": "2026-08-12",
+      "ref": "main",
+      "role": "broad-rl-and-agent-environments",
+      "url": "https://github.com/NafiGit/awesome-rl-environments"
+    },
+    {
+      "code": "aab",
+      "commit_sha": "1f28ee46bba824d5e6895f223b5fc5d86f554ed8",
+      "id": "awesome-agent-benchmarks",
+      "license_note": "Follow the upstream repository license/terms; this registry stores normalized factual metadata and links, not upstream prose.",
+      "name": "Awesome Agent Benchmarks",
+      "observed_at": "2026-08-12",
+      "ref": "main",
+      "role": "agent-benchmarks",
+      "url": "https://github.com/RDI-Foundation/awesome-agent-benchmarks"
+    },
+    {
+      "code": "are",
+      "commit_sha": "08cacf66b2bc51d07a35043ef74b089f0e9b83f2",
+      "id": "awesome-rl-envs",
+      "license_note": "Follow the upstream repository license/terms; this registry stores normalized factual metadata and links, not upstream prose.",
+      "name": "RL Environment List",
+      "observed_at": "2026-08-12",
+      "ref": "master",
+      "role": "classic-rl-environments",
+      "url": "https://github.com/clvrai/awesome-rl-envs"
+    },
+    {
+      "code": "aae",
+      "commit_sha": "cbe9f5575b30ecabaea1771e64999b9a5823695e",
+      "id": "awesome-ai-environments",
+      "license_note": "Follow the upstream repository license/terms; this registry stores normalized factual metadata and links, not upstream prose.",
+      "name": "Environments and Simulators for Learning Algorithms",
+      "observed_at": "2026-08-12",
+      "ref": "master",
+      "role": "historic-ai-environments",
+      "url": "https://github.com/dbobrenko/awesome-ai-environments"
+    },
+    {
+      "code": "agd",
+      "commit_sha": "04bad480297d8e92200653ce088217dbb432bedb",
+      "id": "awesome-gymnasium-data",
+      "license_note": "Follow the upstream repository license/terms; this registry stores normalized factual metadata and links, not upstream prose.",
+      "name": "Awesome Gymnasium Data",
+      "observed_at": "2026-08-12",
+      "ref": "main",
+      "role": "gymnasium-tooling-and-infrastructure",
+      "url": "https://github.com/ishandutta2007/Awesome-Gymnasium-Data"
+    }
+  ]
+}
