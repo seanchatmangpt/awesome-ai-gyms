@@ -1,0 +1,16 @@
+[book]
+title = "A Pattern Language for AI Gyms"
+authors = ["Awesome AI Gyms contributors"]
+description = "A pattern language for executable AI worlds, lawful actuation, evidence, replay, and ontology-driven manufacture."
+language = "en"
+src = "src"
+
+[build]
+build-dir = "book"
+
+[output.html]
+default-theme = "navy"
+preferred-dark-theme = "navy"
+git-repository-url = "https://github.com/seanchatmangpt/awesome-ai-gyms"
+edit-url-template = "https://github.com/seanchatmangpt/awesome-ai-gyms/edit/main/book/{path}"
+site-url = "/awesome-ai-gyms/"
