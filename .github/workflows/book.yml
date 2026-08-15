@@ -5,12 +5,14 @@ on:
     paths:
       - "book/**"
       - "scripts/validate_book.py"
+      - "scripts/generate_book_nav.py"
       - ".github/workflows/book.yml"
   push:
     branches: [main]
     paths:
       - "book/**"
       - "scripts/validate_book.py"
+      - "scripts/generate_book_nav.py"
       - ".github/workflows/book.yml"
   workflow_dispatch:
 
@@ -22,9 +24,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: dtolnay/rust-toolchain@stable
-      - name: Validate pattern language
+      - name: Check deterministic navigation projections
+        run: python scripts/generate_book_nav.py --check
+      - name: Validate pattern graph
         run: python scripts/validate_book.py
+      - uses: dtolnay/rust-toolchain@stable
       - name: Install mdBook
         run: cargo install mdbook --locked --version 0.5.3
       - name: Build mdBook

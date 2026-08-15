@@ -47,18 +47,18 @@ This separation is foundational. A registry can preserve many possibilities prec
 
 ## How to read the language
 
-Patterns are ordered from large-scale institutional structure toward increasingly operational patterns. Read the first chapters in sequence once. After that, enter anywhere and follow neighboring-pattern links.
+The language contains **64 first-class pattern chapters** grouped into eight families. `P01` through `P64` are stable pattern identities; the mdBook sidebar is one deterministic reading projection over the larger graph.
 
-Every pattern uses the same grammar:
+Read the orientation chapters once, then use whichever route fits the work. Each pattern page contains:
 
 - **Context** — when the pattern applies.
 - **Problem** — the recurring tension.
 - **Forces** — pressures that make a naive solution unstable.
-- **Therefore** — the bounded solution.
+- **Resolution** — the bounded solution.
 - **Consequences** — what becomes easier and what remains costly.
 - **Falsifier** — an observation that defeats a claim that the pattern has been implemented.
-- **Evidence** — concrete proof expected before claiming standing.
-- **Connects to** — neighboring patterns that complete or constrain it.
+- **Evidence contract** — concrete proof expected before claiming standing.
+- **Pattern graph** — direct links to neighboring patterns that complete or constrain it.
 
 Confidence markers indicate how settled the pattern is within this language:
 
@@ -70,4 +70,4 @@ The language is deliberately conservative at the machine-state boundary and maxi
 
 > Preserve the largest reversible lawful possibility graph before irreversible selection.
 
-That principle is Design for Combinatorial Maximalism (DFCM).
+That principle is Design for Combinatorial Maximalism (DFCM). The summary is navigation; the pattern graph is the language.
