@@ -12,12 +12,13 @@ on:
       - "book/**"
       - "scripts/validate_book.py"
       - ".github/workflows/book.yml"
+  workflow_dispatch:
 
 permissions:
   contents: read
 
 jobs:
-  validate:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -34,3 +35,26 @@ jobs:
           name: ai-gym-pattern-language-html
           path: book/book
           if-no-files-found: error
+      - name: Upload GitHub Pages artifact
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: book/book
+
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    concurrency:
+      group: pages
+      cancel-in-progress: false
+    steps:
+      - name: Deploy mdBook to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
