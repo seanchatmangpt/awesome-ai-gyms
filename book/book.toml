@@ -7,10 +7,23 @@ src = "src"
 
 [build]
 build-dir = "book"
+create-missing = false
 
 [output.html]
 default-theme = "navy"
 preferred-dark-theme = "navy"
+no-section-label = true
+sidebar-header-nav = true
 git-repository-url = "https://github.com/seanchatmangpt/awesome-ai-gyms"
+git-repository-icon = "fab-github"
 edit-url-template = "https://github.com/seanchatmangpt/awesome-ai-gyms/edit/main/book/{path}"
 site-url = "/awesome-ai-gyms/"
+
+[output.html.fold]
+enable = true
+level = 1
+
+[output.html.search]
+enable = true
+limit-results = 50
+heading-split-level = 2
